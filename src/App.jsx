@@ -8,6 +8,7 @@ import craft2 from './assets/craft2.jpg'
 import burger from './assets/burger.jpg'
 import chicken from './assets/chicken.jpg'
 import herobg from './assets/hero-bg.jpg'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Food bgImg1 ={craft1} bgImg2 = {craft2} />
       <Food bgImg={chicken} />
       <Food bgImg={burger} />
+      <Footer />
     </div>
   )
 }
